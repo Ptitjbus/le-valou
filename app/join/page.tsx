@@ -3,6 +3,13 @@ import { Card } from "../components/card";
 import { Navigation } from "../components/nav";
 import Particles from "../components/particles";
 import { Instagram, Linkedin, Mail } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Le valou | Nous rejoindre",
+  description: "Rejoignez-nous sur nos réseaux sociaux pour être tenu au courant des dernières actualités",
+};
+
 
 export default function JoinPage() {
 	return (

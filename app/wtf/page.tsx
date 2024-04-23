@@ -1,6 +1,12 @@
 import { Valou } from "../components/ThreeScene";
 import { Navigation } from "../components/nav";
 import Particles from "../components/particles";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Le valou | Hein ???",
+  description: "⟊⏃⎐⏃⟟⌇ ⌿⌰⎍⌇ ⎅⟟⋏⌇⌿⟟, ⟊⏃⟟ ☊⏃⌇⌇⟒ ⋔⍜⋏ ☊⍀⏃⋏⟒",
+};
 
 export default function JoinPage() {
 	return (

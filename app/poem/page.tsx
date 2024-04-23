@@ -1,4 +1,11 @@
 import Header from "./header";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Le valou | Poèmes",
+  description: "Découvrez les plus beaux poèmes en l'honneur du Grand Maître Valentin",
+};
+
 
 export default async function PoemPage() {    
     return (

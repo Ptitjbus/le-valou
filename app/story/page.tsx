@@ -2,6 +2,12 @@ import Image from "next/image";
 import { Navigation } from "../components/nav";
 import saintValentin from './saint-valentin.webp'
 import leCreateur from './le-createur.webp'
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Le valou | Qui est Valentin ?",
+  description: "Découvrez l'histoire de Valentin, le Grand Maitre, créateur de l'univers et gardien de l'équilibre cosmique.",
+};
 
 export default function Story(){
     return (
